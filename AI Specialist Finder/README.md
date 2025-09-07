@@ -4,23 +4,26 @@
 
 ## 🎯 Objectif
 
-Ce projet révolutionnaire développe un agent IA avancé qui utilise le web scraping multi-plateformes pour identifier, analyser et localiser des **journalistes spécialistes** et **chercheurs spécialisés** dans les domaines de l'IA, du machine learning, de la programmation et des technologies émergentes. L'objectif principal est de faciliter les interviews pour des revues de presse spécialisées et de créer un réseau d'experts qualifiés.
+Ce projet développe un agent IA avancé qui utilise le web scraping multi-plateformes pour identifier, analyser et localiser des **journalistes spécialistes** et **chercheurs spécialisés** dans les domaines de l'IA, du machine learning, de la programmation et des technologies émergentes. L'objectif principal est de faciliter les interviews pour des revues de presse spécialisées et de créer un réseau d'experts qualifiés.
 
 ## 🚀 Fonctionnalités Avancées
 
 ### 🔍 Scraping Multi-Sources (8 Scrapers Actifs)
 
 #### 🌐 **Sites de Journaux Internationaux**
+
 - **TechCrunch, Wired, Ars Technica, The Verge**
 - **VentureBeat, ZDNet, Engadget, Mashable**
 - **Sites francophones** : Les Echos, Contexte, Indeed.fr
 
 #### 🐦 **Réseaux Sociaux & APIs**
+
 - **Twitter API** : Recherche de spécialistes tech actifs
 - **LinkedIn** : Profils de chercheurs et journalistes spécialisés
 - **Serper API** : Recherche Google avancée pour journalistes francophones
 
 #### 🎯 **Sources Académiques & Recherche**
+
 - **Google Scholar** : Chercheurs en IA et machine learning
 - **ResearchGate** : Publications scientifiques et profils chercheurs
 - **NewsAPI** : Articles d'actualité sur l'IA
@@ -28,11 +31,13 @@ Ce projet révolutionnaire développe un agent IA avancé qui utilise le web scr
 ### 🧠 Analyse Intelligente & Scoring
 
 #### 📊 **Système de Scoring Avancé**
+
 - **Score de Réputation** (0-1) : Followers, articles, qualité publications
 - **Score de Pertinence IA** (0-1) : Expertise en IA, ML, programmation
 - **Score de Spécialisation** : Domaines d'expertise précis
 
 #### 🌍 **Géolocalisation Intelligente**
+
 - **Pays multiples** : France, Belgique, Suisse, Canada francophone
 - **Détection automatique** : Analyse des URLs et contenus
 - **Filtrage géographique** : Recherche par région
@@ -40,11 +45,13 @@ Ce projet révolutionnaire développe un agent IA avancé qui utilise le web scr
 ### 💾 Base de Données Optimisée
 
 #### 🗄️ **Stockage SQLite Avancé**
+
 - **281+ profils** de journalistes et chercheurs
 - **Modèles relationnels** : Journalistes, Articles, Recherches
 - **Index optimisés** : Recherche ultra-rapide
 
 #### 📤 **Exports Multi-Formats**
+
 - **CSV** : 200 résultats maximum avec tous les champs
 - **Markdown** : Format lisible pour documentation
 - **Filtrage intelligent** : Par pays, spécialisation, scores
@@ -111,12 +118,14 @@ LINKEDIN_PASSWORD=your_linkedin_password
 ### 💻 Interface CLI Optimisée
 
 #### 🔄 **Recherche Complète Multi-Sources**
+
 ```bash
 # Recherche complète avec tous les scrapers actifs
 python src/main.py --search
 ```
 
 #### 🎯 **Recherche par Critères Avancés**
+
 ```bash
 # Recherche par pays multiples (France, Belgique, Suisse, Canada)
 python src/main.py --country "France,Belgique,Suisse,Canada" --limit 200
@@ -129,6 +138,7 @@ python src/main.py --specialization "machine learning researcher" --limit 100
 ```
 
 #### 📊 **Exports Multi-Formats**
+
 ```bash
 # Export CSV avec 200 résultats maximum
 python src/main.py --export csv --limit 200
@@ -141,6 +151,7 @@ python src/main.py --country "France" --export csv --limit 80
 ```
 
 #### 📈 **Statistiques Détaillées**
+
 ```bash
 # Statistiques complètes de la base de données
 python src/main.py --stats
@@ -176,11 +187,13 @@ stats = agent.get_statistics()
 ## 📊 Résultats Actuels & Métriques
 
 ### 🎯 **Base de Données Active**
+
 - **281+ profils** de journalistes et chercheurs spécialisés
 - **8 scrapers opérationnels** : Newspaper, NewsAPI, Google Scholar, ResearchGate, Serper français, etc.
 - **Couverture géographique** : France, Belgique, Suisse, Canada francophone + monde entier
 
 ### 🏆 **Top Experts Identifiés**
+
 1. **Martin Shepperd** (0.71 rep, 0.40 IA) - Professeur Brunel University London
 2. **Haitao Wu** (0.66 rep, 0.37 IA) - Associate Professor Zhongnan University
 3. **Yoshua Bengio** (0.72 rep, 0.33 IA) - Professeur Mila IVADO CIFAR
@@ -188,6 +201,7 @@ stats = agent.get_statistics()
 5. **Andrew McCallum** (0.72 rep, 0.31 IA) - Distinguished Professor UMass Amherst
 
 ### 🌍 **Spécialistes Francophones**
+
 - **Sam Altman** (Trends-Tendances) - Score IA: 0.30
 - **Jérôme Colombain** (YouTube) - Score IA: 0.22
 - **Christophe Charlot** (Trends-Tendances) - Score IA: 0.20
@@ -196,12 +210,14 @@ stats = agent.get_statistics()
 ## 📊 Critères d'Évaluation Avancés
 
 ### 🏅 Score de Réputation (0-1)
+
 - **Articles publiés** (30%) : Quantité et qualité des publications
 - **Followers sociaux** (25%) : Twitter, LinkedIn, influence digitale
 - **Qualité publications** (25%) : Réputation du média/revue
 - **Expertise technique** (20%) : Pertinence IA/tech démontrée
 
 ### 🎯 Score de Pertinence IA (0-1)
+
 - **Mots-clés spécialisés** : IA, ML, deep learning, neural networks
 - **Domaines d'expertise** : Computer vision, NLP, robotics, etc.
 - **Publications académiques** : Papers, conférences, citations
