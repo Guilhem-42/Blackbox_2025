@@ -1,0 +1,39 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Web automation
+selenium>=4.15.0
+playwright>=1.40.0
+webdriver-manager>=4.0.0
+
+# Data analysis and visualization
+matplotlib>=3.7.0
+plotly>=5.17.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# File handling
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+python-docx>=0.8.11
+
+# Task scheduling and async
+schedule>=1.2.0
+asyncio>=3.4.3
+aiohttp>=3.9.0
+
+# Logging and monitoring
+loguru>=0.7.0
+tqdm>=4.66.0
+
+# Configuration
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
